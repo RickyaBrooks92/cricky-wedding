@@ -18,11 +18,7 @@ const App = () => {
     }
   }, []);
 
-  return (
-    <div>
-      <video ref={videoRef} autoPlay />
-    </div>
-  );
+  return <div>Hello World</div>;
 };
 
 export default App;
